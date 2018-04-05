@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Organization Registration Center</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body class="container">
+<div class="panel panel-default">
+ <div style="background-color:azure; color: brown"> <h1 class="panel-heading">Organization Registration</h1></div>
+  <div style="background-color:azure" class="container" id="orgFields">
+  <div class="col-md-3"> Organization Name:</div> <div class="col-md-9"> <input type="text" id="name"> </div>
+   <div  class="col-md-3"> Orgnization Region:</div> <div  class="col-md-9"> <input type="text" id="region"> </div>
+  <!--  <div  class="col-md-3"> Supplier Price:</div> <div  class="col-md-9"> <input type="text" id="supprice"> </div>
+   <div  class="col-md-3"> Provider Price:</div> <div  class="col-md-9"> <input type="text" id="provprice"> </div> -->
+ <div  class="col-md-3">Addresses</div> <div  class="col-md-9"> <div id="selectaddress"> </div>
+  </div>
+  <div class="col-md-offset-9"><input  class="btn-success" value="REGISTER" onclick="RegisterOrganization();" type="button"></div>
+</div>
+</body>
+<script src="https://cdn.rawgit.com/ethereum/web3.js/develop/dist/web3.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+<script src="./org.js"></script>
+</html>
+
+<style>
+/*the container must be positioned relative:*/
+#selectaddress {
+  position: relative;
+  font-family: Arial;
+}
+
+</style>

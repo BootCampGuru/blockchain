@@ -1,0 +1,23 @@
+{
+  "name": "immuchain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "big-integer": "^1.6.27",
+    "express": "^4.16.3",
+    "ganache-cli": "^6.1.0",
+    "ipfs-api": "^19.0.0",
+    "ipfs-js": "0.0.11",
+    "node-cmd": "^3.0.0",
+    "node-pgp": "0.0.1",
+    "solc": "^0.4.21",
+    "web3": "^0.20.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

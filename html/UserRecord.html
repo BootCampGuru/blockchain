@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>User Immunization Registration</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body class="container">
+  
+  <div class="panel panel-default" id="orgFields">
+  <div style="background-color:azure; color:brown;" class="panel-heading"><h2>User Immunization Registration</h2></div>
+  <div class="panel-body">
+  <div class="col-md-3"> First Name:</div> <div class="col-md-9"> <input type="text" id="firstname"> </div>
+  <div class="col-md-3"> Last Name:</div> <div class="col-md-9"> <input type="text" id="lastname"> </div>
+ <div  class="col-md-3">Address:</div> <div  class="col-md-9"> <div id="selectaddress"> </div>
+
+  </div> 
+   <div  class="col-md-3">Immunization For:</div> <div class="col-md-9"> <input type="text" id="lastname"> </div>
+
+
+    <div  class="col-md-3">Cost:</div> <div  class="col-md-9"> <input type="text" id="cost"> </div>
+  <div  class="col-md-3">Provider Address:</div> <div  class="col-md-9"> <input type="text" id="hostname"> </div>
+
+  </div>
+  </div>
+  <div class="panel-footer">
+  <input class="col-md-offset-11 btn-success" value="SUBMIT" onclick="RegisterUser();" type="button">
+  </div>  
+</div>
+</body>
+
+<script src="https://cdn.rawgit.com/ethereum/web3.js/develop/dist/web3.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+<script src="./UserRecord.js"></script>
+</html>
